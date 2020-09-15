@@ -1,0 +1,11 @@
+{
+  "name": "example-client",
+  "version": "1.0.0",
+  "description": "A NPM client example",
+  "main": "index.js",
+  "author": "Song Li",
+  "license": "ISC",
+  "dependencies": {
+    "@example/example-1": "^1.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@example/example-1",
+  "version": "1.0.1",
+  "description": "A NPM example package",
+  "main": "index.js",
+  "author": "Song Li",
+  "license": "ISC"
+}
