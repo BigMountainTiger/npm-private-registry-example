@@ -1,6 +1,6 @@
 {
   "name": "@example/example-1",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A NPM example package",
   "main": "index.js",
   "author": "Song Li",
