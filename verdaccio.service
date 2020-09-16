@@ -1,0 +1,11 @@
+[Unit]
+Description=Verdaccio npm registry service
+After=network.target
+    
+[Service]
+Type=simple
+ExecStart=verdaccio
+Restart=always
+    
+[Install]
+WantedBy=multi-user.target
