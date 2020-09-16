@@ -3,6 +3,9 @@ https://hub.docker.com/r/verdaccio/verdaccio/
 https://stevenlu.com/posts/2014/08/01/using-a-private-npm-repository-for-your-project/
 https://bytearcher.com/articles/main-property-in-package.json-defines-entry-point/
 
+https://blog.marcnuri.com/docker-container-as-linux-system-service/
+
+
 docker pull verdaccio/verdaccio:4
 docker run -d --name verdaccio -p 4873:4873 verdaccio/verdaccio:4
 

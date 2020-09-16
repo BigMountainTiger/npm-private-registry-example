@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Song Li",
   "license": "ISC",
+  "private": true,
   "dependencies": {
     "@example/example-1": "^1.0.0"
   }
