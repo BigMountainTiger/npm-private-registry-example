@@ -1,7 +1,8 @@
 const { getMessage } = require('@example/example-1');
+const msg = require('message');
 
 (async () => {
-  console.log('Running');
+  console.log(msg);
 
   console.log(getMessage());
   
