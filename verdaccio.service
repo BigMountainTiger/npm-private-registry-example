@@ -1,11 +1,13 @@
 [Unit]
 Description=Verdaccio npm registry service
-After=network.target
-    
+After=docker.service
+Wants=network-online.target docker.socket
+Requires=docker.socket
+ 
 [Service]
-Type=simple
-ExecStart=verdaccio
 Restart=always
-    
+ExecStart=/usr/bin/docker container start -a verdaccio
+ExecStop=/usr/bin/docker container stop -t 20 verdaccio
+ 
 [Install]
 WantedBy=multi-user.target
