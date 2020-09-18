@@ -17,4 +17,6 @@ npm publish --registry http://localhost:4873
 npm unpublish @example/example-1@1.0.0 --registry http://localhost:4873
 npm view @example/example-1 versions --registry http://localhost:4873
 
+@example:registry=http://localhost:4873/
+
 
